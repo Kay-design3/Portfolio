@@ -10,47 +10,47 @@ function Projects(){
 
                 <ul className='grid'>
                     <li>
-                        <a href="">
+                        <a href="https://github.com/Kay-design3/Galleryslider.git">
                             Pic-Slide
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="https://github.com/Kay-design3/Chat.git">
                             Chat
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="https://github.com/Kay-design3/To-Do-List.git">
                             To-Do-List
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="https://github.com/Kay-design3/Registration1.git">
                             Signup1
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="https://github.com/Kay-design3/Form.git">
                             Form
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="https://github.com/Kay-design3/Registration2.git">
                             Signup2    
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="https://github.com/Kay-design3/Movieapp.git">
                             Movieapp
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="https://github.com/Kay-design3/Quotes.git">
                             Quotes
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="https://github.com/Kay-design3/Toggle.git">
                             Toggle
                         </a>
                     </li>
