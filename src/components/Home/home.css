@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0px 100px;
+}
+
+h1{
+    margin: 20px 0px;
+    font-size: 100px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+p{
+    margin-top: 25px;
+    font-size: 20px;
+    word-spacing: 3px;
+    line-height: 30px;
+}
+
+.main::after {
+    content: "";
+    display: block;
+    width: 700px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 45px;
+    margin-top: 60px;
+    align-self: center;
+}

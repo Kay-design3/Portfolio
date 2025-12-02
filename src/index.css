@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  color: black;
+  background-image: linear-gradient(135deg,  rgb(29, 225, 250), cyan, rgb(29, 225, 250));
+  overflow-y: scroll;
+}
+
+a{
+  color: #000913;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
