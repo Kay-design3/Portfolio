@@ -19,3 +19,9 @@ a{
 body::-webkit-scrollbar{
     display: none;
 }
+
+@media (max-width: 600px) {
+  body{
+    width: 100%;
+  }
+  }
