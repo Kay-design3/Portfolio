@@ -71,10 +71,6 @@ body::-webkit-scrollbar{
     line-height: 1.4;
   }
 
-  h2 {
-    font-size: 28px;
-  }
-
   .skills-container {
     display: flex;
     flex-wrap: wrap;
