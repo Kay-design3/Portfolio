@@ -20,53 +20,90 @@ body::-webkit-scrollbar{
     display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   body {
-    width: 100%;
-    padding: 1rem;
-    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
   }
 
-  .container {
-    margin: 5px;
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0;
+  }
+
+  nav h1, 
+  .logo {
+    font-size: 24px;  
   }
 
   nav ul {
-    flex-direction: column;
-    gap: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
   }
 
- .main{
-    padding: 0px 10px;
- }
+  nav ul li a {
+    font-size: 16px;
+  }
 
-h1{
-    margin: 20px 0px;
-    font-size: 70px;
-}
-
-h2{
+  h1{
     font-size: 30px;
-}
-
-h3{
-    font-size: 25px;
-}
-
-p{
-    margin-top: 25px;
-    font-size: 15px;
-    word-spacing: 2px;
-    line-height: 28px;
-    max-width: 80%;
-}
-
-.main::after {
-    width: 500px;
-}
-
-  .lang li{
-    width: 80px;
-    height: 80px;
   }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3{
+    font-size: 15px;
+  }
+
+  p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0;
+  }
+
+  .skill-item {
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+  }
+
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    justify-items: center;
+    padding-bottom: 30px;
+  }
+
+  .project-box {
+    width: 90px;
+    height: 90px;
+    font-size: 12px;
+  }
+
+ .main::after{
+    width: 80%;
+ }
 }
