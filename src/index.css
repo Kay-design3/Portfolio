@@ -64,4 +64,9 @@ p{
 .main::after {
     width: 500px;
 }
+
+  .lang li{
+    width: 80px;
+    height: 80px;
+  }
 }
