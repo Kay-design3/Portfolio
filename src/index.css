@@ -40,8 +40,28 @@ body::-webkit-scrollbar{
     padding: 0px 10px;
  }
 
- h1{
-   
- }
-  
+h1{
+    margin: 20px 0px;
+    font-size: 70px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    margin-top: 25px;
+    font-size: 15px;
+    word-spacing: 2px;
+    line-height: 28px;
+    max-width: 80%;
+}
+
+.main::after {
+    width: 500px;
+}
 }
